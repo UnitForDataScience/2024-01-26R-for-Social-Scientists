@@ -146,38 +146,51 @@ The schedule for the different curricula are listed here:
   </div>
 </div>
 
-{% elsif site.curriculum == "dc-socsci" %}
-
 <div class="row">
-  <div class="col-md-6">
+  <!-- Day 1 Schedule -->
+  <div class="col-md-4">
     <h3>Day 1</h3>
     <table class="table table-striped">
       <tr>
-	<td>Before starting</td>
-	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+        <td>8:00 - 9:00</td>
+        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheets-socialsci/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/openrefine-socialsci/">OpenRefine for Data Cleaning</a></td></tr>
-      <tr><td>Afternoon</td><td><a href="https://datacarpentry.org/r-socialsci/">Introduction to R</a></td></tr>
-      <tr> <td>Evening</td> <td>END</td> </tr>
+      <tr>
+        <td>9:00 - 10:30</td>
+        <td><a href="https://datacarpentry.org/spreadsheets-socialsci/">Data Organization in Spreadsheets</a></td>
+      </tr>
+      <tr>
+        <td>10:30 - 12:00</td>
+        <td><a href="https://datacarpentry.org/openrefine-socialsci/">OpenRefine for Data Cleaning</a></td>
+      </tr>
     </table>
   </div>
-  <div class="col-md-6">
+
+  <!-- Day 2 Schedule -->
+  <div class="col-md-4">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td> <td><a href="https://datacarpentry.org/r-socialsci/">Continuation of R: Data Analysis & Visualization</a></td></tr>
-      <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/sql-socialsci/">Data Management with SQL</a></td></tr>
       <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+        <td>8:00 - 12:00</td>
+        <td><a href="https://datacarpentry.org/r-socialsci/">Continuation of R: Data Analysis & Visualization</a></td>
       </tr>
+    </table>
+  </div>
+
+  <!-- Day 3 Schedule (Example Content) -->
+  <div class="col-md-4">
+    <h3>Day 3</h3>
+    <table class="table table-striped">
       <tr>
-	<td> </td>
-	<td> END </td>
+        <td>8:00 - 12:00</td>
+        <td><!-- Day 3 Content Here --></td>
       </tr>
     </table>
   </div>
 </div>
+
+
+
 
 
 {% elsif site.curriculum == "dc-geospatial" %}
