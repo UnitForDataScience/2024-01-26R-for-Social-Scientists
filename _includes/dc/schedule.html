@@ -1,12 +1,35 @@
-{% elsif site.curriculum == "dc-socsci" %}
+{% if site.curriculum == "dc-socsci" %}
+<div class="row">
+  <div class="col-md-4">
+    <h3>Day 1: January 26, 9 AM - 12 PM</h3>
+    <h4>Setup and troubleshooting: Becca and Namig</h4>
+    <h4>Introduction to R: Becca</h4>
+    <h4>Starting with Data: Becca and Namig (from inspecting data frames)</h4>
+    <h4>Data wrangling with dplyr: Namig</h4>
+  </div>
+  <div class="col-md-4">
+    <h3>Day 2: February 2, 9 AM - 12 PM</h3>
+    <h4>Troubleshooting: Becca and Namig</h4>
+    <h4>Data wrangling with tidyr: Becca</h4>
+    <h4>Data visualization: Namig</h4>
+  </div>
+  <div class="col-md-4">
+    <h3>Day 3: February 5, 9 AM - 12 PM</h3>
+    <h4>Troubleshooting: Becca and Namig</h4>
+    <h4>Getting started with R-Markdown: Becca</h4>
+    <h4>Processing Json files: Becca</h4>
+    <h4>Data Scraping (30 minutes): Namig (For this part, I am thinking to first quickly talk about types of data scraping and then show some web scraping in R)</h4>
+    <h4>Network Analysis (30-minute introduction): Namig</h4>
+  </div>
+</div>
 
 <div class="row">
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
       <tr>
-	<td>Before starting</td>
-	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+        <td>Before starting</td>
+        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
       <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheets-socialsci/">Data Organization in Spreadsheets</a></td></tr>
       <tr><td> </td><td><a href="https://datacarpentry.org/openrefine-socialsci/">OpenRefine for Data Cleaning</a></td></tr>
@@ -20,13 +43,20 @@
       <tr> <td>Morning</td> <td><a href="https://datacarpentry.org/r-socialsci/">Continuation of R: Data Analysis & Visualization</a></td></tr>
       <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/sql-socialsci/">Data Management with SQL</a></td></tr>
       <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+        <td>Evening</td>
+        <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
       </tr>
       <tr>
-	<td> </td>
-	<td> END </td>
+        <td> </td>
+        <td> END </td>
       </tr>
     </table>
   </div>
+  <div class="col-md-12">
+    <h3>Day 3</h3>
+    <table class="table table-striped">
+      <!-- Include Day 3 content here -->
+    </table>
+  </div>
 </div>
+{% endif %}
